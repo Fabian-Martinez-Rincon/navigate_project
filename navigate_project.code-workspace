@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/studis-presentation-master/.github"
+		},
+		{
+			"path": "../../Downloads/studis-presentation-master/css"
+		},
+		{
+			"path": "../../Downloads/studis-presentation-master/dist"
+		},
+		{
+			"path": "../../Downloads/studis-presentation-master/examples"
+		},
+		{
+			"path": "../../Downloads/studis-presentation-master/js"
+		},
+		{
+			"path": "../../Downloads/studis-presentation-master/plugin"
+		},
+		{
+			"path": "../../Downloads/studis-presentation-master/static"
+		},
+		{
+			"path": "../../Downloads/studis-presentation-master/test"
+		}
+	],
+	"settings": {}
+}
