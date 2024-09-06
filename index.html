@@ -2,7 +2,6 @@
 <html lang="en">
 	<head>
 		<style>
-			/* Define estilos para diferentes tipografías */
 			.arial {
 			  font-family: Arial, sans-serif;
 			}
@@ -20,22 +19,15 @@
 			}
 		  </style>
 		<meta charset="utf-8">
-
 		<title>reveal.js - The HTML Presentation Framework</title>
-
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
-
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
-
-		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
 	<body>
@@ -85,36 +77,28 @@
 					<p>Podemos sacar foto al codigo para tenerlo como evidencia</p>
 					<img width="80%" src="https://github.com/user-attachments/assets/f84f995b-479d-469a-a978-292a6075f5f4">
 				</section>
-				
 				<section data-auto-animate>
-					<pre data-id="code"><code data-line-numbers class="hljs" data-trim>
-						import React, { useState } from 'react';
+					<pre data-id="code">
+						<code data-line-numbers class="hljs" data-trim>
+							import React, { useState } from 'react';
 
-						function Example() {
-						  const [count, setCount] = useState(0);
+							function Example() {
+								const [count, setCount] = useState(0);
 
-						  return (
-							...
-						  );
-						}
-					</code></pre>
+								return (...);
+							}
+						</code>
+					</pre>
 				</section>
-				
 			</div>
 		</div>
-
 		<script src="dist/reveal.js"></script>
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
 		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-
-				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
 		</script>
